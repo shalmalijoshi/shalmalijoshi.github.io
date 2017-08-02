@@ -1,1 +1,0 @@
-# shalmalijoshi.github.io
