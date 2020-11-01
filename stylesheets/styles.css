@@ -80,6 +80,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 }
 .nav>li {
   float: left;
+  list-style-type: none;
 }
 span {
     color:#7d3c98;
