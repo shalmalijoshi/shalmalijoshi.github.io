@@ -72,12 +72,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 }
 .navbar .container-fluid>.navbar-header {
   float: left;
-  margin-right: 8px;
   margin-bottom: 8px;
+  margin-top: 2px;
 }
 .navbar .navbar-nav {
   float: left;
-  margin: 4px;
+  margin-top: 2px;
 }
 .nav>li {
   float: left;
