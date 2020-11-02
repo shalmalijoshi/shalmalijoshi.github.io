@@ -72,8 +72,8 @@
                           </tr>
                       </thead>
 
-                      <!--tbody id="pub"-->
-                      <tbody>
+                      <tbody id="pub">
+                      <!--tbody-->
                           <tr data-tags='["ML","health"]'><td>2020</td>
                               <td>S. Yi, S. Wang, <b>S. Joshi</b>, M. Ghassemi <b><a href="https://ml4health.github.io/2020/" style="text-decoration:underline;color:#145A8C"  target="_blank"> Confounding Feature Acquisition for Causal Effect Estimation</a></b>. ML4H@NeurIPS 2020 Proceedings (to Appear).
                               </td>
@@ -95,7 +95,7 @@
                               </td>
                           </tr>
                           <tr data-tags='["ML","health"]'><td>2020</td>
-                              <td>S. Tonekaboni*, <b>S. Joshi</b>, K. Campbell, D. Duvenaud, A. Goldenberg <b><a href="https://arxiv.org/abs/2003.02821" style="text-decoration:underline;color:#145A8C"  target="_blank"> What went wrong and when? Instance-wise Feature Importance for Time-series Models</a></b>. NeurIPS 2020.
+                              <td>S. Tonekaboni*, <b>S. Joshi*</b>, K. Campbell, D. Duvenaud, A. Goldenberg <b><a href="https://arxiv.org/abs/2003.02821" style="text-decoration:underline;color:#145A8C"  target="_blank"> What went wrong and when? Instance-wise Feature Importance for Time-series Models</a></b>. NeurIPS 2020.
                               </td>
                           </tr>
                           <tr data-tags='["ML"]'><td>2020</td>
@@ -168,7 +168,7 @@
           while(r=rows[i++]){
               if(t=='all'){r.style.display=''}
               else{
-                  c=r.getAttribute('data-tag');
+                  c=r.getAttribute('data-tags');
                   r.style.display=(c.search(t)>=0)?'':'none';
               }
           }
