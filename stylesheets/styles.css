@@ -85,6 +85,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
   float: left;
   list-style-type: none;
 }
+
+.table-hover > tbody > tr:hover {
+  background-color: #D2D2D2;
+}
+
 span {
     color:#7d3c98;
     font-weight: bold;
